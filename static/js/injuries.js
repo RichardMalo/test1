@@ -2,12 +2,12 @@
 let selectElement2 = document.querySelector('#selDataset');
 
 // Load the data from the CSV file
-function loadData() {
-  return d3.json('/data')
-    .then(data => {
-      return data;
-    });
-}
+// function loadData() {
+//   return d3.json('/data')
+//     .then(data => {
+//       return data;
+//     });
+// }
 
 // Function to calculate injuries per year
 async function calculateInjuriesPerYear(selectedYear) {

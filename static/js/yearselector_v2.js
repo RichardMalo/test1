@@ -30,9 +30,6 @@ function optionChanged(selectedYear) {
   });
 };
 
-
-
-
 // Call the function to populate the year selector
 populateYearSelector();
 optionChanged();

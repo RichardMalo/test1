@@ -1,10 +1,10 @@
-function loadData() {
-  return d3.json('/data')
-    .then(data => {
-      // console.log('Fetched data:', data);
-      return data;
-    });
-}
+// function loadData() {
+//   return d3.json('/data')
+//     .then(data => {
+//       // console.log('Fetched data:', data);
+//       return data;
+//     });
+// }
 
 
 // Filters the data based on the magnitude range of the tornado events.
@@ -83,7 +83,7 @@ function createLayout() {
     },
     legend: {
         title: {
-        text: 'Tornado Magnitude: <br>(Click/Double Click<br>To Toggle EF Value)<br>',
+        text: 'Tornado Magnitude: <br>(Click/Double Click<br>To Toggle Bar Chart Display)<br>',
         font: {
         size: 18
         }
